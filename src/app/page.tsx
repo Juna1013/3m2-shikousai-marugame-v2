@@ -2,12 +2,13 @@ import Header from "@/components/Header";
 import Main from "@/components/Main";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function App() {
   return (
-    <main className="min-h-screen flex flex-col">
+    <div className="bg-gradient-to-br from-cyan-100 to-blue-100 min-h-screen">
       <Header />
       <Main />
       <Footer />
-    </main>
+      <script src="index.js"></script>
+    </div>
   );
 }

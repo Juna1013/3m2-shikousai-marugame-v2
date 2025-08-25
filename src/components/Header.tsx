@@ -1,8 +1,14 @@
 export default function Header() {
   return (
-    <header className="bg-yellow-400 text-center p-6 shadow-md">
-      <h1 className="text-4xl font-bold">3M2 丸亀クレープ</h1>
-      <p className="text-lg mt-2">茨香祭 2023 出店クラス</p>
+    <header className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white py-6">
+      <div className="container mx-auto text-center">
+        <img
+          src="3M2サークルカット.png"
+          alt="サークルカット"
+          className="w-32 h-32 mx-auto rounded-full shadow-lg"
+        />
+        <h1 className="text-4xl font-bold mt-4 font-serif">丸亀式クレープ</h1>
+      </div>
     </header>
   );
 }
