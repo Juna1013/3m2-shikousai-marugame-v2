@@ -1,10 +1,7 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // i18n: {
-    // locales: ['en', 'ja'],
-    // defaultLocale: 'ja',
-  // },
+  // Next.js 13+ App Routerではi18n設定は不要
 };
 
 export default nextConfig;
