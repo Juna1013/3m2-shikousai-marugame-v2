@@ -1,8 +1,16 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {notFound} from 'next/navigation';
-import React from 'react';
+import { NextIntlClientProvider } from 'next-intl';
+import { notFound } from 'next/navigation';
+import '../globals.css';
 
-export default async function LocaleLayout({children, params: {locale}}) {
+interface LocaleLayoutProps {
+  children: React.ReactNode;
+  params: { locale: string };
+}
+
+export default async function LocaleLayout({ 
+  children, 
+  params: { locale } 
+}: LocaleLayoutProps) {
   let messages;
   try {
     messages = (await import(`../../messages/${locale}.json`)).default;
