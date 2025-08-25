@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white py-6">
+    <header className="bg-gradient-to-r from-red-500 to-pink-500 text-white py-6">
       <div className="container mx-auto text-center">
         <img
           src="logo.png"

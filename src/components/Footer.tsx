@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white py-4 mt-8 pt-8 pb-8">
+    <footer className="bg-gradient-to-r from-red-500 to-pink-500 text-white py-4 mt-8 pt-8 pb-8">
       <div className="container mx-auto text-center">
         <p className="text-3xl font-serif font-bold mt-4 mb-4">3M2 丸亀式クレープ</p>
         <p className="text-xl font-serif">Opening Hour</p>

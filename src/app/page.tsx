@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export default function App() {
   return (
-    <div className="bg-gradient-to-br from-cyan-100 to-blue-100 min-h-screen">
+    <div className="bg-gradient-to-br from-pink-100 to-red-100 min-h-screen">
       <Header />
       <Main />
       <Footer />
