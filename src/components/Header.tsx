@@ -3,7 +3,7 @@ export default function Header() {
     <header className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white py-6">
       <div className="container mx-auto text-center">
         <img
-          src="3M2サークルカット.png"
+          src="logo.png"
           alt="サークルカット"
           className="w-32 h-32 mx-auto rounded-full shadow-lg"
         />
